@@ -1,7 +1,6 @@
 *{
     box-sizing:border-box;
-    font-size: 40 px;
-  
+   
 }
 p{
     overflow: hidden;
@@ -63,19 +62,15 @@ p{
 .col-l-10{width: 83.33%;}
 .col-l-11{width: 91.66%;}
 .col-l-12{width: 100%;}
-    .menu ul li 
-    {
-       
-       margin: 3px;
-       
-        
-}
-        .menu ul 
-    {
+    
+    .menu ul li {
+        margin: 3px;
+     font-size: 140%;
+    }
+    .menu ul{
         width: 100%;
         display:inline-flex;
         flex-direction: row;
-       
         justify-content: space-between;
-        
+    }
 }
